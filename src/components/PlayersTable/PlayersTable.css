@@ -1,0 +1,8 @@
+.player-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.player-list:last-child {
+    border-bottom: 1px solid black;
+}

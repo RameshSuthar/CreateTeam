@@ -1,0 +1,17 @@
+.details-wrapper {
+    display: flex;
+}
+
+.total-players, .teamA-count, .teamB-count, .credit {
+    border: 1px solid black;
+    border-right: 0px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.details-wrapper:last-child {
+    border-right: 1px solid black;
+}
